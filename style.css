@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+	height: auto;
+	background-color: white;
+	justify-content: left;
+	display: flex;
+    padding: 10px;
+    height: 10vh;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+html {
+    background-color: gray;
+}
+
+
