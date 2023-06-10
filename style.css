@@ -2,17 +2,40 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+html {
+    height: 100%;
+    background-image: url("websiteBackground.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
     box-sizing: border-box;
 }
 
+body {
+    height: 100%;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; /* Added */
+
+}
+
 #navbar{
-	height: auto;
 	background-color: white;
 	justify-content: left;
 	display: flex;
-    padding: 10px;
-    height: 10vh;
+    padding: 15px;
+    height: 5vh;
+}
 
+h1 {
+    font-size: 60px;
+    color: rgba(33, 33, 33, 0.82); /* Adjusted */
+    margin-top: 15vh;
+    padding: 10px;
 }
 
 .logo {
@@ -25,8 +48,5 @@
     margin-right: 10px;
 }
 
-html {
-    background-color: gray;
-}
 
 

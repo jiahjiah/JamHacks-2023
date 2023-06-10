@@ -1,0 +1,2 @@
+- give true and false for notes
+- send image to jaden
