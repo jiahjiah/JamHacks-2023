@@ -130,7 +130,6 @@ h1 {
 
 }
 
-
 .notes-toggle {
     display: flex;
     align-items: center;
@@ -188,4 +187,8 @@ h1 {
     font-size: 20px;
     color: white;
     margin-right: 10px;
+}
+
+#start:hover {
+    background-color: #A6C377;
 }
