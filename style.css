@@ -21,6 +21,11 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+
+    overflow: auto;
+    overflow-x: hidden;
+
+    overflow-y: auto; /* Enable vertical scrolling */
 }
 
 #navbar {
@@ -49,6 +54,29 @@ body {
     justify-content: center;
     background-repeat: no-repeat;
     background-size: contain; /* Display the full image within the box */
+}
+
+.box2 {
+    margin-top: 50px;
+    width: 600px;
+    height: 200px;
+    color: white;
+    background-color: #000000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+  
+.top-bar {
+    background-color: #99D98C;
+    position: relative;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 h1 {
@@ -196,6 +224,20 @@ h1 {
     margin-right: 10px;
 }
 
+#copy {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
 #start:hover {
     background-color: #A6C377;
+}
+
+#start:hover {
+    background-color: #A6C377;
+}
+
+.copy-button img {
+    height: 20px;
+    margin-right: 10px;
 }
